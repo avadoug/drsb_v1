@@ -111,7 +111,6 @@ const addOrderItems = asyncHandler(async (req, res) => {
 				const name= 'Payment Instructions'
 				const email ='no-reply@dankrealmseedbank.com';
 				const Sender = process.env.MAIL_SENDER;
-				const Target = process.env.MAIL_RECIPIENT
 				const Password = process.env.MAIL_PASSWORD;
 				const MailHost = process.env.MAIL_HOST;
 				const user = req.user.email
